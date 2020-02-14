@@ -13,7 +13,5 @@
   "author": "Abhishek Satpathy",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {
-    "precise-commits": "^1.0.2"
-  }
+  "devDependencies": {}
 }
