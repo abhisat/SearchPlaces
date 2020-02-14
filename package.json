@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "install": "cd client && yarn install && cd ../cors-server && yarn install",
+    "cors": "cd cors-server && node cors-server.js",
+    "start": "cd client && node scripts/start.js",
+    "test": "cd client && yarn test",
+    "clean": "find . -name \"node_modules\" -exec rm -rf '{}' +"
+  },
+  "name": "searchplaces",
+  "version": "1.0.0",
+  "description": "App to search for popular destinations",
+  "main": "index.tsx",
+  "author": "Abhishek Satpathy",
+  "license": "MIT",
+  "dependencies": {}
+}
